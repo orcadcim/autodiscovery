@@ -1,5 +1,8 @@
 # Orca autodiscovery
 
+This script will run an NMAP scan on the networks attached to your server and create Orca objects in your tenant environment.
+A 'prefix' object will be created for the IP addresses on each device that is found.
+A 'device' object will be created for each device with a hostname that is found.
 
 ## Dependencies
 
