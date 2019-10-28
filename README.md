@@ -20,7 +20,7 @@ optional arguments:
   -h, --help        show this help message and exit
   -e , --email      Your Orca DCIM email
   -p , --password   Your Orca DCIM password
-  -t , --tenant     Your Orca DCIM tenant name
+  -t , --tenant     Your Orca DCIM tenant name (example: 'tenant' for tenant.orcadcim.com)
 
 $ python3 autodiscovery.py -t yourtenant -e your@email.com -p yourpassword
 ```
