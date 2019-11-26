@@ -25,7 +25,7 @@ def create_parser():
         '-t', '--tenant',
         dest='tenant',
         metavar='',
-        help='Your Orca DCIM tenant name',
+        help="Your Orca DCIM tenant name (example: 'tenant' for tenant.orcadcim.com)",
         required=True,
     )
     return parser.parse_args()
